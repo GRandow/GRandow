@@ -1,6 +1,6 @@
 # Gabriel Randow
 
-**Shopify developer** — six years on Shopify, four of them at a US agency shipping Shopify Plus stores and their integrations for DTC brands. Now focused on the backend of the platform: custom apps, the Admin GraphQL API, webhooks, and the systems a store has to talk to.
+**Shopify developer, full stack** — six years on Shopify, four of them at a US agency shipping Shopify Plus stores and their integrations for DTC brands. I work on both sides of the platform: headless storefronts on the Storefront and Customer Account APIs, and custom apps that connect a store to the systems it depends on — Admin GraphQL API, webhooks, back-office integrations.
 
 ![Shopify](https://img.shields.io/badge/Shopify-Admin%20%26%20Storefront%20APIs-96BF48?logo=shopify&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
