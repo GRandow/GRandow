@@ -14,7 +14,7 @@
 
 ## Selected projects
 
-- **[luma-commission-bridge](https://github.com/GRandow/luma-commission-bridge)** — custom app for direct-sales brands: `orders/paid` webhooks (HMAC-verified, idempotent by webhook id, queued with retries), distributors as metaobjects, the commission written back to the order, and a sync to a commission engine with idempotency keys and a rehearsable failure mode. TypeScript · React Router · Prisma/Postgres · Polaris · unit-tested, CI on every push.
+- **[luma-commission-bridge](https://github.com/GRandow/luma-commission-bridge)** — custom app for direct-sales brands: `orders/paid` webhooks (HMAC-verified, idempotent by webhook id, queued with retries), distributors as metaobjects, the commission written back to the order and synced to a commission engine with idempotency keys. At checkout, a Checkout UI extension collects and validates the distributor's code, and a Shopify Function (TypeScript → Wasm) applies referral and wholesale pricing. TypeScript · React Router · Prisma/Postgres · Polaris · unit-tested, CI on every push.
 - **[luma-shopify-storefront](https://github.com/GRandow/luma-shopify-storefront)** — headless storefront on the Storefront, Cart and Customer Account APIs (OAuth 2.0 + PKCE), with referral attribution for direct sales. React 19 · TypeScript · Vite · TanStack Query · unit-tested, CI. [Live demo](https://grandow.github.io/luma-shopify-storefront/)
 - **[ecommerce-product-carousel](https://github.com/GRandow/ecommerce-product-carousel)** — dependency-free product carousel for e-commerce pages, vanilla JS + Tailwind. [Live demo](https://grandow.github.io/ecommerce-product-carousel/)
 
@@ -22,8 +22,6 @@
   <img src="commission-bridge-dashboard.png" alt="The commission bridge dashboard inside the Shopify admin: paid orders attributed to distributors, commissions calculated and synced to the engine" width="900">
 </p>
 <p align="center"><sub>The commission bridge inside the Shopify admin: each paid order attributed, calculated at the distributor's rate and synced to the engine.</sub></p>
-
-Next up: a Checkout UI extension and a Shopify Function for distributor pricing, inside the commission bridge.
 
 ## Certifications
 
